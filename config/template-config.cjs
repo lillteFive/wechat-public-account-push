@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的{{to_name.DATA}}, 早上好',
+    title: '亲爱的老婆, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -38,13 +38,11 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      综合运势：{{comprehensive_horoscope.DATA}}
+      {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们在一起的第{{love_day.DATA}}天
-      今天是我们领证的第{{law_day.DATA}}天
-      今天是我们结婚的第{{marry_day.DATA}}天
+      今天是我们在一起的第{{love_day.DATA}}天，是我们领证的第{{law_day.DATA}}天，是我们结婚的第{{marry_day.DATA}}天
       
       {{birthday_message.DATA}}
       
