@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的{{to_name.DATA}}, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -20,19 +20,44 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
+      湿度: {{shidu.DATA}}
+      
+      PM2.5: {{pm25.DATA}}
+      
+      PM1.0: {{pm10.DATA}}
+      
+      日出时间: {{sunrise.DATA}}
+      
+      日落时间: {{sunset.DATA}}
+      
+      空气质量指数: {{aqi.DATA}}
+      
+      预防感冒提醒: {{ganmao.DATA}}
+      
+      天气温馨语: {{notice.DATA}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      综合运势：{{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们在一起的第{{love_day.DATA}}天
+      今天是我们领证的第{{law_day.DATA}}天
+      今天是我们结婚的第{{marry_day.DATA}}天
       
       {{birthday_message.DATA}}
       
       ---
       
+      {{note_en.DATA}} 
+      
+      {{note_ch.DATA}}
+      
+      {{earthy_love_words.DATA}}
+      
       {{moment_copyrighting.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
   {
