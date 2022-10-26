@@ -54,8 +54,6 @@ const TEMPLATE_CONFIG = [
       
       {{earthy_love_words.DATA}}
       
-      {{moment_copyrighting.DATA}}
-      
     `
   },
   {
