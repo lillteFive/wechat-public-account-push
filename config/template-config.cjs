@@ -42,7 +42,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们在一起的第{{love_day.DATA}}天，是我们领证的第{{law_day.DATA}}天，是我们结婚的第{{marry_day.DATA}}天
+      今天是我们在一起的第{{love_day.DATA}}天，是我们领证的第{{law_day.DATA}}天，是我们结婚的第{{marry_day.DATA}}天，是果果出生的第{{born_day.DATA}}天
       
       {{birthday_message.DATA}}
       
