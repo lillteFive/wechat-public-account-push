@@ -48,6 +48,8 @@ const USER_CONFIG = {
         { keyword: 'law_day', date: '2021-03-15' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-05-01' },
+        // 果果出生日
+        { keyword: 'born_day', date: '2022-12-25' },
       ],
     },
   ],
